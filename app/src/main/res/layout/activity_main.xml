@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F3F4"
+    android:backgroundTint="#F5F5F5"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/fileimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/noimageselected"
+        android:translationY="-50dp"
+        app:srcCompat="@drawable/fileimagepurple" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fileimg"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/no_image_selected"
+        android:textColor="#546E7A"
+        android:textSize="18sp"
+        android:translationY="-50dp" />
+
+    <Button
+        android:id="@+id/button_capture"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/scan_image"
+        android:textColor="#5A458C"
+        android:textSize="14sp"
+        app:strokeColor="#5A458C" />
+</RelativeLayout>

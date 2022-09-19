@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ULRS</string>
+    <string name="camera_logo">camera logo</string>
+    <string name="splash_text">ULRS</string>
+    <string name="noimageselected">noImageSelected</string>
+    <string name="no_image_selected">No Image Selected</string>
+    <string name="scan_image">Scan Image</string>
+    <string name="save">save</string>
+    <string name="copy">copy</string>
+    <string name="share">share</string>
+    <string name="browse">search</string>
+</resources>
